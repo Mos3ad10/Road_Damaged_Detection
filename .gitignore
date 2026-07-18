@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.gradio/
+.ipynb_checkpoints/
+
+# Local datasets and training outputs
+RDD2022/
+runs/
+comparison/
+deployed_local/
+
+# Local editor/runtime files
+.vscode/
+*.log
+
+# Extra base weights kept locally during experiments
+yolo*.pt
+
+# Keep the final app model, but ignore accidental extra model drops
+gradio_deploy/models/*
+!gradio_deploy/models/best.pt
