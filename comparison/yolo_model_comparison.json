@@ -1,0 +1,26 @@
+[
+  {
+    "model":"YOLO11",
+    "mAP50":0.6152742867,
+    "mAP50-95":0.3183188849,
+    "precision":0.666791857,
+    "recall":0.5506035094,
+    "mean_iou":0.6433705357,
+    "fps":99.9197145102,
+    "model_size_mb":54.3445749283,
+    "deployment_efficiency":0.5852715224,
+    "weights":"gradio_deploy/models/best.pt"
+  },
+  {
+    "model":"YOLOv8",
+    "mAP50":0.59394842,
+    "mAP50-95":0.3075105222,
+    "precision":0.6358142143,
+    "recall":0.5504669186,
+    "mean_iou":0.6390601471,
+    "fps":119.6155079114,
+    "model_size_mb":21.4880161285,
+    "deployment_efficiency":1.7117926143,
+    "weights":"runs/road_damage_yolo_compare/YOLOv8/weights/best.pt"
+  }
+]

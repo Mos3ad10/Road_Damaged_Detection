@@ -6,7 +6,6 @@ __pycache__/
 # Local datasets and training outputs
 RDD2022/
 runs/
-comparison/
 deployed_local/
 
 # Local editor/runtime files
