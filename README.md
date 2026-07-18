@@ -66,16 +66,3 @@ The deployed interface is an end-user Gradio app. It keeps the training and hard
 - `comparison/` - saved model comparison results.
 - `test images/` - held-out sample images for quick testing.
 
-## Run The App
-
-```powershell
-conda activate subway_rl
-pip install -r gradio_deploy/requirements.txt
-python gradio.py
-```
-
-Then open the local URL printed by Gradio, usually `http://127.0.0.1:7861`.
-
-## Repository Notes
-
-The repository includes the application code, the selected model weights, the notebook, the converter, test images, and comparison results. It intentionally excludes the full RDD2022 dataset, training run folders, caches, logs, and duplicate model artifacts.
